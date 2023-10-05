@@ -18,7 +18,7 @@ public class PostTest {
 
                 .then().log().all()
                 .statusCode(200)
-                .body("data", equalTo("hi"));
+                .body("data", equalTo("hello"));
     }
 
 }
